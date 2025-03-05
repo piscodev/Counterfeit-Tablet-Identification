@@ -29,7 +29,16 @@ Command does is: to detect the images downloaded from: https://universe.roboflow
 - Extract zip to folder, then to your project folder
 ![alt text](image-1.png)
 
-**py detect.py --weights runs/train/best.pt --source C:\Users\user\Desktop\yolowv5\yolov5\content\Bio_Deeetect.v3i.coco\test**
+
+- For detecting the image directly without webcam:
+```python
+py detect.py --weights runs/train/best.pt --source C:\Users\user\Desktop\yolowv5\yolov5\content\Bio_Deeetect.v3i.coco\test
+```
+
+- For detecting the images/actual using webcam:
+```python
+py detect.py --weights runs/train/best.pt --source 0
+```
 
 -------------------------------------------
 <div align="center">
