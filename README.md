@@ -8,6 +8,7 @@ Tinapa Installation:
 Download/Update/Degrade Python Version to 3.10:
 Install here: https://www.python.org/downloads/release/python-3100/ (Windows installer (64-bit) Recommended)
 
+
 **Don't forget to ADD to PATH during installation**
 
 Then vscode terminal:
@@ -18,6 +19,17 @@ Then vscode terminal:
 After installation kay:
 Restart PC
 
+
+Open vscode:
+Commands:
+
+Command does is: to detect the images downloaded from: https://universe.roboflow.com/biogesictrial/bio_deeetect/dataset/5
+- Format COCO
+- Download Zip to computer
+- Extract zip to folder, then to your project folder
+![alt text](image-1.png)
+
+**py detect.py --weights runs/train/best.pt --source C:\Users\user\Desktop\yolowv5\yolov5\content\Bio_Deeetect.v3i.coco\test**
 
 -------------------------------------------
 <div align="center">
