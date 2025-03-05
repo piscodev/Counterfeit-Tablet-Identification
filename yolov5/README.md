@@ -1,3 +1,25 @@
+Tinapa Installation:
+--------------------
+
+**git clone https://github.com/piscodev/Counterfeit-Tablet-Identification.git**
+
+**cd yolov5**
+
+Download/Update/Degrade Python Version to 3.10:
+Install here: https://www.python.org/downloads/release/python-3100/ (Windows installer (64-bit) Recommended)
+
+**Don't forget to ADD to PATH during installation**
+
+Then vscode terminal:
+**pip install --upgrade pip**
+
+**pip install torch torchvision torchaudio ultralytics**
+
+After installation kay:
+Restart PC
+
+
+-------------------------------------------
 <div align="center">
   <p>
     <a href="https://www.ultralytics.com/events/yolovision" target="_blank">
